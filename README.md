@@ -13,27 +13,20 @@
 
 ```
 .
-├── cmd/
-│   └── api/
-│       └── main.go
-├── docs/
-│   ├── docs.go
-│   ├── swagger.json
-│   └── swagger.yaml
 ├── internal/
-│   ├── core/
-│   │   └── note.go
-│   ├── http/
-│   │   ├── handlers/
-│   │   │   └── notes.go
-│   │   └── router.go
-│   └── repo/
-│       └── note_pg.go
-├── docker-compose.yml
+│   ├── mathx_test.go
+│   └── mathx.go
+├── service/
+│   ├── repo.go
+│   ├── service_test.go
+│   └── service.go
+├── stringsx/
+│   ├── stringsx_test.go
+│   └── stringsx.go
+├── coverage
+├── coverage.out
 ├── go.mod
-├── go.sum
-├── Makefile
-└── README.md
+└── go.sum
 ```
 
 
